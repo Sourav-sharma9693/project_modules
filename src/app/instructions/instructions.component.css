@@ -1,0 +1,99 @@
+.container{
+    position: fixed;
+    top: 50%;
+    left: 30%; 
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    width: 800px;
+    height: 800px;
+    size: 1000px;
+    text-align: center;
+    
+}
+.card{
+    size: 1000px; 
+    color: black;
+}
+img {
+    opacity: 0.3;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    max-width: 600%;
+    height: 800;
+    align-self: center;
+    margin-left: 595px;
+}
+
+.instruction_icon{
+    opacity: 1;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 18%;
+    left: -25%;
+    margin-left: 200px;
+
+}
+
+.mat-card{
+    left: 0%;
+}
+
+.divider{
+   size: 28px;
+}
+
+.sp{
+    top: 700px;
+
+}
+
+.button:hover{
+    background-color: rgba(0, 255, 255, 0.767);
+    color: rgb(0, 17, 255);
+}
+.centered:hover {
+    color:rgb(247, 4, 65);
+}
+.mat-raised-button:hover{
+    background-color: rgb(2, 228, 228);
+    color: black;
+}
+
+.mat-card-image{
+    width: 726px;
+    height: 780px;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 29%;
+    width: 300px;
+    height: 80px;
+    color: blue;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-family: serif;
+    text-align: center;
+    font-weight: 600px;
+}
+
+.top-left {
+    text-align: initial;
+    position: absolute;
+    top: 25%;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 1200px;
+    font-family: serif;
+}
+.mat-raised-button{
+    background-color: #006bdd;
+    block-size: 40px;
+    color:white;
+    font-size: 22px;
+    margin: 27px;
+    top: 15%;
+    left: 80%;
+    /* margin-top: -30px; */
+}

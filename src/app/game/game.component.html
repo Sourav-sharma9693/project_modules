@@ -1,0 +1,13 @@
+  <div class="row" *ngIf="!selectedGame;  else gameBlock">
+
+    <div class="col-md-4" style="height: 500px; background-color:aqua;border: 2px solid gray; "
+                     *ngFor="let game of games" (click)="selectedGame=game" >
+        <br>
+                     <div style="background-color: blueviolet;">
+                    <h4> <p class="text-center">{{game.gameName}}</p></h4>
+                    <br>
+      <div style="height: 10px; width: 10px; background-color: darkcyan">{{game.imageUrl}}>
+      </div>
+                  </div>
+                </div>
+ </div>
